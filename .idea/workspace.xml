@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="517a4bc4-ff50-4210-93b4-2f4d1b8bbcae" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="5" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="39QjZtx23FRNaNV8ZEnnErkoNb3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.MyArrayPredicateTest.executor": "Run",
+    "JUnit.MyArrayPredicateTest.indexOf_returnsFirstMatchingIndex.executor": "Run",
+    "JUnit.MyArrayPredicateTest.indexOf_returnsMinus1WhenNoMatch.executor": "Run",
+    "JUnit.MyArrayPredicateTest.indexOf_returnsMinus1WhenPredicateIsNull.executor": "Run",
+    "JUnit.MyArrayPredicateTest.lastIndexOf_returnsFirstMatchingIndex.executor": "Run",
+    "JUnit.MyArrayPredicateTest.lastIndexOf_returnsMinus1WhenNoMatch.executor": "Run",
+    "JUnit.MyArrayPredicateTest.lastIndexOf_returnsMinus1WhenPredicateIsNull.executor": "Run",
+    "JUnit.MyArrayPredicateTest.removeIf_removesAllMatching_andReturnsTrue.executor": "Run",
+    "JUnit.MyArrayPredicateTest.removeIf_returnsFalseWhenNoElementsRemoved.executor": "Run",
+    "JUnit.MyArrayPredicateTest.removeIf_returnsFalseWhenPredicateIsNull.executor": "Run",
+    "JUnit.MyArrayPredicateTest.removeIf_worksWithNullPredicateCondition.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1771171223166" />
+    <option name="spentUsd" value="0.04282005" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="8" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="predicate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyArrayPredicateTest">
+    <configuration name="MyArrayPredicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw12_Predicate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="predicate.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="predicate.tests" />
+      <option name="MAIN_CLASS_NAME" value="predicate.tests.MyArrayPredicateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayPredicateTest.removeIf_removesAllMatching_andReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw12_Predicate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="predicate.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="predicate.tests" />
+      <option name="MAIN_CLASS_NAME" value="predicate.tests.MyArrayPredicateTest" />
+      <option name="METHOD_NAME" value="removeIf_removesAllMatching_andReturnsTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayPredicateTest.removeIf_returnsFalseWhenNoElementsRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw12_Predicate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="predicate.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="predicate.tests" />
+      <option name="MAIN_CLASS_NAME" value="predicate.tests.MyArrayPredicateTest" />
+      <option name="METHOD_NAME" value="removeIf_returnsFalseWhenNoElementsRemoved" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayPredicateTest.removeIf_returnsFalseWhenPredicateIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw12_Predicate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="predicate.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="predicate.tests" />
+      <option name="MAIN_CLASS_NAME" value="predicate.tests.MyArrayPredicateTest" />
+      <option name="METHOD_NAME" value="removeIf_returnsFalseWhenPredicateIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayPredicateTest.removeIf_worksWithNullPredicateCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw12_Predicate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="predicate.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="predicate.tests" />
+      <option name="MAIN_CLASS_NAME" value="predicate.tests.MyArrayPredicateTest" />
+      <option name="METHOD_NAME" value="removeIf_worksWithNullPredicateCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyArrayPredicateTest" />
+        <item itemvalue="JUnit.MyArrayPredicateTest.removeIf_worksWithNullPredicateCondition" />
+        <item itemvalue="JUnit.MyArrayPredicateTest.removeIf_returnsFalseWhenPredicateIsNull" />
+        <item itemvalue="JUnit.MyArrayPredicateTest.removeIf_returnsFalseWhenNoElementsRemoved" />
+        <item itemvalue="JUnit.MyArrayPredicateTest.removeIf_removesAllMatching_andReturnsTrue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="517a4bc4-ff50-4210-93b4-2f4d1b8bbcae" name="Changes" comment="" />
+      <created>1770635249693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770635249693</updated>
+    </task>
+    <servers />
+  </component>
+</project>
