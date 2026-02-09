@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions.*;
 import predicate.MyArray;
 
+import predicate.myPredicates.IsNullPredicate;
 import predicate.myPredicates.isEvenPredicate;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -30,7 +31,7 @@ public class MyArrayPredicateTest {
 
     //========================== removeIf ===========================
 
-//@DisplayName("removeIf - true")
+    //@DisplayName("removeIf - true")
     @Test
     void removeIf_removesAllMatching_andReturnsTrue() {
         MyArray<Integer> arr = new MyArray<>();
@@ -47,7 +48,7 @@ public class MyArrayPredicateTest {
         assertEquals(3, arr.get(1));
     }
 
-   // @DisplayName("removeIf - False")
+    // @DisplayName("removeIf - False")
     @Test
     void removeIf_returnsFalseWhenNoElementsRemoved() {
         MyArray<Integer> arr = new MyArray<>();
@@ -64,7 +65,28 @@ public class MyArrayPredicateTest {
         assertEquals(5, arr.get(2));
     }
 
-   // @DisplayName("removeIf - false")@Test
+    @Test
+    void removeIf_returnsTrueWhenNullElementsRemoved() {
+        MyArray<Integer> arr = new MyArray<>();
+        arr.add(1);
+        //null
+        //null
+        arr.add(5);
+        arr.add(7);
+        arr.add(9);
+        arr.add(1, null);
+        arr.add(2, null);
+        //всего 6 элементов
+
+        boolean changed = arr.removeIf(new IsNullPredicate<>());
+
+        assertTrue(changed);
+        assertEquals(4, arr.size());
+        assertEquals(5, arr.get(1));
+    }
+
+    // @DisplayName("removeIf - false")
+    @Test
     void removeIf_returnsFalseWhenPredicateIsNull() {
         MyArray<Integer> arr = new MyArray<>();
         arr.add(1);
